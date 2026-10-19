@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.db
+geoip/
+config.json
+*.tar.gz

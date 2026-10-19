@@ -1,0 +1,14 @@
+{
+  "listen_host": "0.0.0.0",
+  "listen_port": 514,
+  "db": "events.db",
+  "geoip_dir": "geoip",
+  "stats_window_hours": 24,
+
+  "default_location": { "name": "Home", "lat": -26.20, "lon": 28.05 },
+
+  "routers": {
+    "192.168.88.1": { "name": "Mik-Home",   "lat": -26.20, "lon": 28.05 },
+    "10.10.0.1":    { "name": "Mik-Office", "lat": -33.92, "lon": 18.42 }
+  }
+}
